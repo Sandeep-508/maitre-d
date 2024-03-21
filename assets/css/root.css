@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(./style.css);
 
 * {
     margin: 0;
@@ -15,7 +16,9 @@
 :root {
     /* colors */
     --color-white: #FFFFFF;
+    --black-color: #000000;
     --about-us-section-gradient: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
+    --orange-box-color: #ECB239;
     /* font-family */
     --fm: "Work Sans", sans-serif;
 
@@ -263,6 +266,14 @@
     line-height: var(--lh-30);
 }
 
+.ls_76 {
+    letter-spacing: var(--ls-main-heading);
+}
+
+.ls_127 {
+    letter-spacing: var(--ls-hero-text);
+}
+
 .lh-26 {
     line-height: var(--lh-26);
 }
@@ -293,6 +304,10 @@
 
 .lh-30 {
     line-height: var(--lh-30);
+}
+
+.text_black {
+    color: var(--black-color);
 }
 
 .lh-32 {
@@ -353,4 +368,13 @@
 
 .lh-29 {
     line-height: var(--lh-29);
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
 }

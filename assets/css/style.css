@@ -1,0 +1,380 @@
+@import url(./root.css);
+
+.container_about_us {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.container_features {
+    max-width: 971px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gap_12px {
+    gap: 12px;
+}
+
+.pt_23px {
+    padding-top: 23px;
+}
+
+.back_hero_img {
+    background-image: url(../images/png/without_svg_hero_sec_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sub_btn {
+    background: var(--about-us-section-gradient);
+}
+
+.card_hover {
+    width: 100%;
+    height: 100%;
+}
+
+.px_37px {
+    padding-right: 37px;
+    padding-left: 37px;
+}
+
+.py_12px {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.brdr_rad_30 {
+    border-radius: 30px;
+}
+
+.pb_59px {
+    padding-bottom: 59px;
+}
+
+.pt_128px {
+    padding-top: 128px;
+}
+
+.h_210px {
+    height: 210px;
+}
+
+.pos_adjust {
+    min-height: 210px !important;
+}
+
+.pt_229px {
+    padding-top: 229px;
+}
+
+.nav_link:hover {
+    -webkit-text-stroke: medium;
+}
+
+.nav_link {
+    position: relative;
+}
+
+.nav_link::before {
+    transition: all 400ms linear;
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    background: var(--about-us-section-gradient);
+    bottom: -10px;
+    height: 3px;
+}
+
+.features_back_img {
+    background-image: url(../images/png/features_back_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: coverx;
+}
+
+.gradient_text {
+    background: var(--about-us-section-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.w_h_adjust {
+    max-width: 275px;
+}
+
+/* .shadow_card {
+    box-shadow: 0px 4px 66px 0px #0000000A;
+} */
+
+.pb_40px {
+    padding-bottom: 40px;
+}
+
+.pt_30px {
+    padding-top: 30px;
+}
+
+.pb_25px {
+    padding-bottom: 25px;
+}
+
+.pb_50px {
+    padding-bottom: 50px;
+}
+
+.pb_10px {
+    padding-bottom: 10px;
+}
+
+.pt_39px {
+    padding-top: 39px;
+}
+
+.gradient_box {
+    width: 87px;
+    height: 87px;
+    border-radius: 50%;
+    background: var(--about-us-section-gradient);
+}
+
+.pt_14px {
+    padding-top: 14px;
+}
+
+.pb_12px {
+    padding-bottom: 12px;
+}
+
+.pt_121px {
+    padding-top: 121px;
+}
+
+.pb_43px {
+    padding-bottom: 43px;
+}
+
+.line {
+    width: 44px;
+    height: 2px;
+    background: var(--about-us-section-gradient);
+}
+
+.nav_link:hover::before {
+    width: 100%;
+}
+
+.sub_btn:hover {
+    transform: scale(1.2);
+    background: linear-gradient(180deg, #FD9B2B 86.99%, #F14F09 13.58%);
+}
+
+.adjust_box {
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    padding-bottom: 103px;
+}
+
+.pt_217px {
+    padding-top: 217px;
+}
+
+.max_lg_w {
+    max-width: 453px;
+}
+
+.orange_box {
+    width: 87px;
+    height: 87px;
+    border-radius: 50%;
+    background-color: var(--orange-box-color);
+    top: 25%;
+    /* left: 50%; */
+    right: 0;
+    z-index: 2;
+    transform: translate(0%, -50%);
+}
+
+.adjust_position {
+    bottom: 0;
+    left: -106px;
+}
+
+@media (max-width: 1024px) {
+    .lg_view {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: var(--about-us-section-gradient);
+        z-index: 10;
+    }
+
+    .flex_max_lg_col {
+        flex-direction: column;
+    }
+
+    .gap_max_lg_5 {
+        gap: 48px !important;
+    }
+
+    .menubar {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        z-index: 11;
+    }
+
+    .menubar>* {
+        background-color: var(--black-color);
+        width: 100%;
+        height: 3px;
+    }
+
+    .show {
+        left: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .back_hero_img {
+        background-image: url(../images/png/hero\ section\ img.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .orange_box {
+        display: none;
+    }
+
+    .spring {
+        display: none;
+    }
+
+    .fs_50px {
+        font-size: var(--fs-50);
+    }
+
+    .lh_54px {
+        line-height: var(--lh-54);
+    }
+
+    .adjust_box {
+        padding-bottom: 200px;
+    }
+
+    .text_max_center {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .fs_max_md_40 {
+        font-size: var(--fs-40);
+    }
+
+    .lh_max_md_48 {
+        line-height: var(--lh-48);
+    }
+}
+
+@media (max-width: 576px) {
+    .fs_max_sm_30 {
+        font-size: var(--fs-30);
+    }
+
+    .lh_max_sm_36 {
+        line-height: var(--lh-36);
+    }
+
+    .fs_32px {
+        font-size: var(--fs-32);
+    }
+
+    .lh_36 {
+        line-height: var(--lh-36);
+    }
+
+    .fs_30px {
+        font-size: var(--fs-30);
+    }
+
+    .fs_14px {
+        font-size: var(--fs-14);
+    }
+
+    .lh_24px {
+        line-height: var(--lh-23);
+    }
+}
+
+@media (min-width: 992px) {
+    .card_hover {
+        max-width: 293px;
+        height: 300px;
+        border-radius: 8px;
+    }
+
+    .hover_effect:hover .card_hover {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transform: translate(0, -73px);
+        background: var(--about-us-section-gradient);
+    }
+
+    .hover_effect:hover .text_hover {
+        color: var(--color-white);
+        opacity: 1 !important;
+    }
+
+    .pos-rel-lg {
+        position: relative;
+    }
+
+    .hover_effect:hover .gradient_box {
+        background: var(--color-white);
+        /* only background can replace background */
+    }
+
+    .hover_effect:hover .gradient_box svg defs stop {
+        stop-color: #F7608C;
+    }
+
+    .hover_effect:hover .gradient_box svg defs stop[offset="1"] {
+        stop-color: #F8AC58;
+    }
+
+    .hover_effect:hover .svg_icon path {
+        fill: #F7608C;
+    }
+
+    .min_h_293px {
+        min-height: 293px;
+    }
+
+    .max_w_md {
+        max-width: 293px;
+    }
+}
