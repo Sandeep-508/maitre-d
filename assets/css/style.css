@@ -335,6 +335,11 @@
     border-radius: 19px;
     background-color: var(--color-white);
     position: relative;
+    cursor: pointer;
+}
+
+.click_effect {
+    cursor: pointer;
 }
 
 .move {
@@ -350,6 +355,7 @@
     background: var(--about-us-section-gradient);
     min-height: 171px;
     width: 100%;
+    cursor: pointer;
     border-radius: 10px;
 }
 
@@ -418,6 +424,10 @@ sup {
     width: 100%;
 }
 
+.cursor {
+    cursor: pointer;
+}
+
 .footer_link:hover {
     -webkit-text-stroke: thin;
 }
@@ -447,6 +457,18 @@ sup {
 
 .prev:hover svg defs stop {
     stop-color: #F7608C;
+}
+
+.prev {
+    cursor: pointer;
+}
+
+.next {
+    cursor: pointer;
+}
+
+.hover_effect {
+    cursor: pointer;
 }
 
 .prev:hover svg defs stop[offset="1"] {
@@ -509,6 +531,7 @@ sup {
         justify-content: space-between;
         flex-direction: column;
         z-index: 11;
+        cursor: pointer;
     }
 
     .menubar>* {
