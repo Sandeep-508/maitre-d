@@ -93,7 +93,7 @@
     --lh-96: 96px;
     --lh-39: 39px;
     --lh-36: 36px;
-
+    --lh-16: 16px;
     --lh-68: 68px;
     --lh-27: 27px;
     --lh-83: 83px;
@@ -368,6 +368,10 @@
 
 .lh-29 {
     line-height: var(--lh-29);
+}
+
+.lh-16 {
+    line-height: var(--lh-16);
 }
 
 p {

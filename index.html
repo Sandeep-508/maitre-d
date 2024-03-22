@@ -55,11 +55,11 @@
                 </label>
                 <div class="d-flex align-items-center gap-3 gap_max_lg_5 lg_view">
                     <div class="d-flex align-items-center gap-5 flex_max_lg_col">
-                        <a href="#" class="fm fw-400 fs-16 lh-18 text_black nav_link">Home</a>
-                        <a href="#" class="fm fw-400 fs-16 lh-18 text_black nav_link">Module</a>
-                        <a href="#" class="fm fw-400 fs-16 lh-18 text_black nav_link">Features</a>
-                        <a href="#" class="fm fw-400 fs-16 lh-18 text_black nav_link">Pricing</a>
-                        <a href="#" class="fm fw-400 fs-16 lh-18 text_black nav_link">Contact Us</a>
+                        <a href="#home" class="fm fw-400 fs-16 lh-18 text_black nav_link">Home</a>
+                        <a href="#module" class="fm fw-400 fs-16 lh-18 text_black nav_link">Module</a>
+                        <a href="#feature" class="fm fw-400 fs-16 lh-18 text_black nav_link">Features</a>
+                        <a href="#price" class="fm fw-400 fs-16 lh-18 text_black nav_link">Pricing</a>
+                        <a href="#contact" class="fm fw-400 fs-16 lh-18 text_black nav_link">Contact Us</a>
                     </div>
                     <span>
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -71,8 +71,8 @@
                 </div>
             </div>
         </nav>
-        <div
-            class="container adjust_box flex-column flex-grow-1 d-flex align-items-center justify-content-center position-relative">
+        <div class="container adjust_box flex-column flex-grow-1 d-flex align-items-center justify-content-center position-relative"
+            id="home">
             <div class="position-relative z-3">
                 <p
                     class="fm fw-800 fs-61 lh-71 ls_127 text-center text_black pb_59px z_4 fs_50px lh_54px fs_max_sm_30 lh_max_sm_36 fs_max_md_40 lh_max_md_48">
@@ -137,7 +137,7 @@
 
         <!-- features -->
 
-        <section class="features_back_img pt_217px">
+        <section class="features_back_img pt_217px pt_40px" id="feature">
             <div class="d-flex align-items-end gap-2 justify-content-center pb-2">
                 <p class="gradient_text fm fw-600 fs-16 lh-18">Features</p>
                 <div class="line"></div>
@@ -239,7 +239,7 @@
 
         <!-- slider -->
 
-        <section class="pt_169px overflow-hidden position-relative">
+        <section class="pt_169px overflow-hidden position-relative pt_40px" id="module">
             <div class="container_modules">
                 <div class="d-flex align-items-end gap-2 justify-content-center pb-2">
                     <p class="gradient_text fm fw-600 fs-16 lh-18">Modules</p>
@@ -256,10 +256,11 @@
                                     class="w-100 h-100">
                             </div>
                             <div class="col-md-5 py-md-0 py-3">
-                                <p class="fm fw-700 fs-24 lh-36 text-md-start text-center">Manage Your <span
-                                        class="gradient_text">Customer
+                                <p class="fm fw-700 fs-24 lh-36 text-md-start text-center fs_16px lh_24px">Manage Your
+                                    <span class="gradient_text">Customer
                                         Queues</span></p>
-                                <p class="fm fw-400 fs-16 lh-24 pt_12px text-md-start text-center">The Maitre D queue
+                                <p class="fm fw-400 fs-16 lh-24 pt_12px text-md-start text-center fs_14px">The Maitre D
+                                    queue
                                     management system is
                                     designed to
                                     allow your customers to sign up
@@ -267,7 +268,9 @@
                                     the services they want ahead of time. The queue will provide them with estimated
                                     wait times, costs and will allow them
                                     to even select their preferred stylist.</p>
-                                <p class="fm fw-400 fs-16 lh-24 pt_21px text-md-start text-center">As the queue gets
+
+                                <p class="fm fw-400 fs-16 lh-24 pt_21px text-md-start text-center d-lg-block d-none">As
+                                    the queue gets
                                     bigger or smaller, its easy
                                     to
                                     monitor your operations and
@@ -287,10 +290,11 @@
                     <div class="container_modules shadow  pt-4 pb-3 ps-4 pe-5">
                         <div class="row justify-content-between flex-column-reverse flex-md-row">
                             <div class="col-md-5 py-md-0 py-3">
-                                <p class="fm fw-700 fs-24 lh-36 text-md-start text-center">Manage Your <span
-                                        class="gradient_text">Customer
+                                <p class="fm fw-700 fs-24 lh-36 text-md-start text-center fs_16px lh_24px">Manage Your
+                                    <span class="gradient_text">Customer
                                         Queues</span></p>
-                                <p class="fm fw-400 fs-16 lh-24 pt_12px text-md-start text-center">The Maitre D queue
+                                <p class="fm fw-400 fs-16 lh-24 pt_12px text-md-start text-center fs_14px">The Maitre D
+                                    queue
                                     management system is
                                     designed to
                                     allow your customers to sign up
@@ -298,7 +302,8 @@
                                     the services they want ahead of time. The queue will provide them with estimated
                                     wait times, costs and will allow them
                                     to even select their preferred stylist.</p>
-                                <p class="fm fw-400 fs-16 lh-24 pt_21px text-md-start text-center">As the queue gets
+                                <p class="fm fw-400 fs-16 lh-24 pt_21px text-md-start text-center d-lg-block d-none">As
+                                    the queue gets
                                     bigger or smaller, its easy
                                     to
                                     monitor your operations and
@@ -307,7 +312,7 @@
                                     busy periods. Beat the frustration of
                                     your customers ahead of time and help manage how they wait for your services</p>
                                 <div
-                                    class="d-flex align-items-center justify-content-center justify-content-lg-start pt_25px">
+                                    class="d-flex align-items-center justify-content-center justify-content-md-start pt_25px">
                                     <button
                                         class="fm fw-700 fs-20 lh-23 sub_btn px_37px py_12px brdr_rad_30 border-0 text-center text-white">Buy
                                         Now</button>
@@ -326,10 +331,11 @@
                                     class="w-100 h-100">
                             </div>
                             <div class="col-md-5 py-md-0 py-3">
-                                <p class="fm fw-700 fs-24 lh-36 text-md-start text-center">Manage Your <span
-                                        class="gradient_text">Customer
+                                <p class="fm fw-700 fs-24 lh-36 text-md-start text-center fs_16px lh_24px">Manage Your
+                                    <span class="gradient_text">Customer
                                         Queues</span></p>
-                                <p class="fm fw-400 fs-16 lh-24 pt_12px text-md-start text-center">The Maitre D queue
+                                <p class="fm fw-400 fs-16 lh-24 pt_12px text-md-start text-center fs_14px">The Maitre D
+                                    queue
                                     management system is
                                     designed to
                                     allow your customers to sign up
@@ -337,7 +343,9 @@
                                     the services they want ahead of time. The queue will provide them with estimated
                                     wait times, costs and will allow them
                                     to even select their preferred stylist.</p>
-                                <p class="fm fw-400 fs-16 lh-24 pt_21px text-md-start text-center">As the queue gets
+
+                                <p class="fm fw-400 fs-16 lh-24 pt_21px text-md-start text-center d-lg-block d-none">As
+                                    the queue gets
                                     bigger or smaller, its easy
                                     to
                                     monitor your operations and
@@ -346,7 +354,7 @@
                                     busy periods. Beat the frustration of
                                     your customers ahead of time and help manage how they wait for your services</p>
                                 <div
-                                    class="d-flex align-items-center justify-content-center justify-content-lg-start pt_25px">
+                                    class="d-flex align-items-center justify-content-center justify-content-md-start pt_25px">
                                     <button
                                         class="fm fw-700 fs-20 lh-23 sub_btn px_37px py_12px brdr_rad_30 border-0 text-center text-white">Buy
                                         Now</button>
@@ -357,10 +365,11 @@
                     <div class="container_modules shadow  pt-4 pb-3 ps-4 pe-5">
                         <div class="row justify-content-between flex-column-reverse flex-md-row">
                             <div class="col-md-5 py-md-0 py-3">
-                                <p class="fm fw-700 fs-24 lh-36 text-md-start text-center">Manage Your <span
-                                        class="gradient_text">Customer
+                                <p class="fm fw-700 fs-24 lh-36 text-md-start text-center fs_16px lh_24px">Manage Your
+                                    <span class="gradient_text">Customer
                                         Queues</span></p>
-                                <p class="fm fw-400 fs-16 lh-24 pt_12px text-md-start text-center">The Maitre D queue
+                                <p class="fm fw-400 fs-16 lh-24 pt_12px text-md-start text-center fs_14px">The Maitre D
+                                    queue
                                     management system is
                                     designed to
                                     allow your customers to sign up
@@ -368,7 +377,9 @@
                                     the services they want ahead of time. The queue will provide them with estimated
                                     wait times, costs and will allow them
                                     to even select their preferred stylist.</p>
-                                <p class="fm fw-400 fs-16 lh-24 pt_21px text-md-start text-center">As the queue gets
+
+                                <p class="fm fw-400 fs-16 lh-24 pt_21px text-md-start text-center d-lg-block d-none">As
+                                    the queue gets
                                     bigger or smaller, its easy
                                     to
                                     monitor your operations and
@@ -377,7 +388,7 @@
                                     busy periods. Beat the frustration of
                                     your customers ahead of time and help manage how they wait for your services</p>
                                 <div
-                                    class="d-flex align-items-center justify-content-center justify-content-lg-start pt_25px">
+                                    class="d-flex align-items-center justify-content-center justify-content-md-start pt_25px">
                                     <button
                                         class="fm fw-700 fs-20 lh-23 sub_btn px_37px py_12px brdr_rad_30 border-0 text-center text-white">Buy
                                         Now</button>
@@ -396,10 +407,11 @@
                                     class="w-100 h-100">
                             </div>
                             <div class="col-md-5 py-md-0 py-3">
-                                <p class="fm fw-700 fs-24 lh-36 text-md-start text-center">Manage Your <span
-                                        class="gradient_text">Customer
+                                <p class="fm fw-700 fs-24 lh-36 text-md-start text-center fs_16px lh_24px">Manage Your
+                                    <span class="gradient_text">Customer
                                         Queues</span></p>
-                                <p class="fm fw-400 fs-16 lh-24 pt_12px text-md-start text-center">The Maitre D queue
+                                <p class="fm fw-400 fs-16 lh-24 pt_12px text-md-start text-center fs_14px">The Maitre D
+                                    queue
                                     management system is
                                     designed to
                                     allow your customers to sign up
@@ -407,7 +419,9 @@
                                     the services they want ahead of time. The queue will provide them with estimated
                                     wait times, costs and will allow them
                                     to even select their preferred stylist.</p>
-                                <p class="fm fw-400 fs-16 lh-24 pt_21px text-md-start text-center">As the queue gets
+
+                                <p class="fm fw-400 fs-16 lh-24 pt_21px text-md-start text-center d-lg-block d-none">As
+                                    the queue gets
                                     bigger or smaller, its easy
                                     to
                                     monitor your operations and
@@ -416,7 +430,7 @@
                                     busy periods. Beat the frustration of
                                     your customers ahead of time and help manage how they wait for your services</p>
                                 <div
-                                    class="d-flex align-items-center justify-content-center justify-content-lg-start pt_25px">
+                                    class="d-flex align-items-center justify-content-center justify-content-md-start pt_25px">
                                     <button
                                         class="fm fw-700 fs-20 lh-23 sub_btn px_37px py_12px brdr_rad_30 border-0 text-center text-white">Buy
                                         Now</button>
@@ -427,10 +441,11 @@
                     <div class="container_modules shadow  pt-4 pb-3 ps-4 pe-5">
                         <div class="row justify-content-between flex-column-reverse flex-md-row">
                             <div class="col-md-5 py-md-0 py-3">
-                                <p class="fm fw-700 fs-24 lh-36 text-md-start text-center">Manage Your <span
-                                        class="gradient_text">Customer
+                                <p class="fm fw-700 fs-24 lh-36 text-md-start text-center fs_16px lh_24px">Manage Your
+                                    <span class="gradient_text">Customer
                                         Queues</span></p>
-                                <p class="fm fw-400 fs-16 lh-24 pt_12px text-md-start text-center">The Maitre D queue
+                                <p class="fm fw-400 fs-16 lh-24 pt_12px text-md-start text-center fs_14px">The Maitre D
+                                    queue
                                     management system is
                                     designed to
                                     allow your customers to sign up
@@ -438,7 +453,9 @@
                                     the services they want ahead of time. The queue will provide them with estimated
                                     wait times, costs and will allow them
                                     to even select their preferred stylist.</p>
-                                <p class="fm fw-400 fs-16 lh-24 pt_21px text-md-start text-center">As the queue gets
+
+                                <p class="fm fw-400 fs-16 lh-24 pt_21px text-md-start text-center d-lg-block d-none">As
+                                    the queue gets
                                     bigger or smaller, its easy
                                     to
                                     monitor your operations and
@@ -447,7 +464,7 @@
                                     busy periods. Beat the frustration of
                                     your customers ahead of time and help manage how they wait for your services</p>
                                 <div
-                                    class="d-flex align-items-center justify-content-center justify-content-lg-start pt_25px">
+                                    class="d-flex align-items-center justify-content-center justify-content-md-start pt_25px">
                                     <button
                                         class="fm fw-700 fs-20 lh-23 sub_btn px_37px py_12px brdr_rad_30 border-0 text-center text-white">Buy
                                         Now</button>
@@ -466,10 +483,11 @@
                                     class="w-100 h-100">
                             </div>
                             <div class="col-md-5 py-md-0 py-3">
-                                <p class="fm fw-700 fs-24 lh-36 text-md-start text-center">Manage Your <span
-                                        class="gradient_text">Customer
+                                <p class="fm fw-700 fs-24 lh-36 text-md-start text-center fs_16px lh_24px">Manage Your
+                                    <span class="gradient_text">Customer
                                         Queues</span></p>
-                                <p class="fm fw-400 fs-16 lh-24 pt_12px text-md-start text-center">The Maitre D queue
+                                <p class="fm fw-400 fs-16 lh-24 pt_12px text-md-start text-center fs_14px">The Maitre D
+                                    queue
                                     management system is
                                     designed to
                                     allow your customers to sign up
@@ -477,7 +495,9 @@
                                     the services they want ahead of time. The queue will provide them with estimated
                                     wait times, costs and will allow them
                                     to even select their preferred stylist.</p>
-                                <p class="fm fw-400 fs-16 lh-24 pt_21px text-md-start text-center">As the queue gets
+
+                                <p class="fm fw-400 fs-16 lh-24 pt_21px text-md-start text-center d-lg-block d-none">As
+                                    the queue gets
                                     bigger or smaller, its easy
                                     to
                                     monitor your operations and
@@ -486,7 +506,7 @@
                                     busy periods. Beat the frustration of
                                     your customers ahead of time and help manage how they wait for your services</p>
                                 <div
-                                    class="d-flex align-items-center justify-content-center justify-content-lg-start pt_25px">
+                                    class="d-flex align-items-center justify-content-center justify-content-md-start pt_25px">
                                     <button
                                         class="fm fw-700 fs-20 lh-23 sub_btn px_37px py_12px brdr_rad_30 border-0 text-center text-white">Buy
                                         Now</button>
@@ -497,10 +517,11 @@
                     <div class="container_modules shadow  pt-4 pb-3 ps-4 pe-5">
                         <div class="row justify-content-between flex-column-reverse flex-md-row">
                             <div class="col-md-5 py-md-0 py-3">
-                                <p class="fm fw-700 fs-24 lh-36 text-md-start text-center">Manage Your <span
-                                        class="gradient_text">Customer
+                                <p class="fm fw-700 fs-24 lh-36 text-md-start text-center fs_16px lh_24px">Manage Your
+                                    <span class="gradient_text">Customer
                                         Queues</span></p>
-                                <p class="fm fw-400 fs-16 lh-24 pt_12px text-md-start text-center">The Maitre D queue
+                                <p class="fm fw-400 fs-16 lh-24 pt_12px text-md-start text-center fs_14px">The Maitre D
+                                    queue
                                     management system is
                                     designed to
                                     allow your customers to sign up
@@ -508,7 +529,9 @@
                                     the services they want ahead of time. The queue will provide them with estimated
                                     wait times, costs and will allow them
                                     to even select their preferred stylist.</p>
-                                <p class="fm fw-400 fs-16 lh-24 pt_21px text-md-start text-center">As the queue gets
+
+                                <p class="fm fw-400 fs-16 lh-24 pt_21px text-md-start text-center d-lg-block d-none">As
+                                    the queue gets
                                     bigger or smaller, its easy
                                     to
                                     monitor your operations and
@@ -517,7 +540,7 @@
                                     busy periods. Beat the frustration of
                                     your customers ahead of time and help manage how they wait for your services</p>
                                 <div
-                                    class="d-flex align-items-center justify-content-center justify-content-lg-start pt_25px">
+                                    class="d-flex align-items-center justify-content-center justify-content-md-start pt_25px">
                                     <button
                                         class="fm fw-700 fs-20 lh-23 sub_btn px_37px py_12px brdr_rad_30 border-0 text-center text-white">Buy
                                         Now</button>
@@ -571,7 +594,7 @@
 
         <!-- pricing -->
 
-        <section class="pt_191px">
+        <section class="pt_191px pt_40px" id="price">
             <div class="d-flex align-items-end gap-2 justify-content-center pb-2">
                 <p class="gradient_text fm fw-600 fs-16 lh-18">Pricing</p>
                 <div class="line"></div>
@@ -581,7 +604,7 @@
             </p>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 py-lg-0 py-3">
                         <div class="d-flex flex-column align-items-center shadow brdr_rad">
                             <div class="gradient_price_sel_box d-flex align-items-center justify-content-start ps_41px">
                                 <div
@@ -781,14 +804,36 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6"></div>
+                    <div class="col-lg-6 d-flex align-items-start justify-content-center flex-column py-lg-0 py-3">
+                        <div
+                            class="price_section mb_35px d-flex align-items-center justify-content-between px-4 position-relative">
+                            <div class="position-absolute end_top">
+                                <img src="./assets/images/png/pricing_Section_buble.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-center">
+                                <span class="dia_specs d-flex align-items-center justify-content-center">
+                                    <img src="./assets/images/svg/diamond.svg" alt="diamond">
+                                </span>
+                                <p class="fm fw-600 fs-20 lh-23 text-white pt_11px">Platinum</p>
+                            </div>
+                            <div>
+                                <p class="fm fw-600 fs-48 lh-54 ls_127 text-white">$449<sup
+                                        class="fm fw-500 fs-14 lh-16">/Month</sup></p>
+                            </div>
+                        </div>
+                        <div class="border-0">
+                            <button
+                                class="fm fw-700 fs-20 lh-23 sub_btn px_37px py_12px brdr_rad_30 border-0 text-center text-white">Buy
+                                Now</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- contact us -->
 
-        <section class="pt_368px pb_147px">
+        <section class="pt_368px pb_147px pt_40px pb_40px" id="contact">
             <div class="container">
                 <div class="row flex-lg-row flex-column-reverse">
                     <div
@@ -827,7 +872,7 @@
         <!-- footer -->
 
         <section class="back_footer_img">
-            <div class="container d-flex align-items-center flex-column justify-content-center pt_82px">
+            <div class="container d-flex align-items-center flex-column justify-content-center pt_82px pt_40px">
                 <div class="d-flex align-items-center justify-content-center">
                     <img src="./assets/images/png/footer_logo.png" alt="random pics">
                 </div>
