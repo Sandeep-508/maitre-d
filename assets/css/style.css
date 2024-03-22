@@ -547,7 +547,7 @@ sup {
     }
 
     .adjust_box {
-        padding-bottom: 200px;
+        padding-bottom: 110px;
     }
 
     .text_max_center {
@@ -611,12 +611,12 @@ sup {
         padding: 5px !important;
     }
 
-    .pt_40px {
-        padding-top: 40px;
+    .pt_50px {
+        padding-top: 50px;
     }
 
-    .pb_40px {
-        padding-bottom: 40px;
+    .pb_50px {
+        padding-bottom: 50px;
     }
 }
 
