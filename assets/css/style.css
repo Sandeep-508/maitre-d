@@ -324,10 +324,6 @@
     padding-bottom: 38px;
 }
 
-.ps_41px {
-    padding-left: 41px;
-}
-
 .pe_42px {
     padding-right: 42px;
 }
@@ -408,6 +404,10 @@ sup {
 
 .pt_191px {
     padding-top: 191px;
+}
+
+.ps_41px {
+    padding-left: 41px;
 }
 
 .pb_147px {
@@ -572,6 +572,10 @@ sup {
     .lh_max_md_48 {
         line-height: var(--lh-48);
     }
+
+    .ps_0 {
+        padding-left: 0;
+    }
 }
 
 @media (max-width: 576px) {
@@ -621,6 +625,14 @@ sup {
 
     .pb_24px {
         padding-bottom: 24px;
+    }
+
+    .fs_max_md {
+        font-size: small;
+    }
+
+    .fs_max_md_med {
+        font-size: medium;
     }
 }
 
