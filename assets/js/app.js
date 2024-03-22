@@ -1,9 +1,16 @@
 let menu = document.querySelector(".menubar");
 let sm_screen = document.querySelector(".lg_view");
+let nav_links = document.querySelectorAll(".nav_link");
 let body = document.body;
 menu.addEventListener("click", () => {
     body.style.overflow = "hidden";
     sm_screen.classList.toggle("show");
+    nav_links.forEach(other => {
+        other.addEventListener("click", () => {
+            sm_screen.classList.remove("show");
+            body.style.overflow = "auto";
+        });
+    });
     if (sm_screen.classList.contains("show")) {
         body.style.overflow = "hidden";
     } else {

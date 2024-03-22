@@ -489,7 +489,7 @@ sup {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        background: var(--about-us-section-gradient);
+        background: var(--color-white);
         z-index: 10;
     }
 
