@@ -53,6 +53,32 @@
     padding-left: 37px;
 }
 
+.gap_51px {
+    gap: 51px;
+}
+
+.max_w_375px {
+    max-width: 375px;
+}
+
+.max_w_294px {
+    max-width: 294px;
+}
+
+.border_line {
+    width: 100%;
+    height: 2px;
+    background-color: #FFFFFF40;
+}
+
+.mt_34px {
+    margin-top: 34px;
+}
+
+.mt_30px {
+    margin-top: 30px;
+}
+
 .py_12px {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -249,6 +275,135 @@
 .next:hover svg path {
     fill: var(--black-color);
 } */
+.pt_368px {
+    padding-top: 368px;
+}
+
+.w-48 {
+    width: 48%;
+}
+
+.back_footer_img {
+    background-image: url(../images/png/footer_back_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer_link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background: var(--about-us-section-gradient);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 400ms linear;
+}
+
+.gradient_price_sel_box {
+    width: 100%;
+    min-height: 81px;
+    background: var(--about-us-section-gradient);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.gradient_price_list_box {
+    width: 100%;
+    min-height: 491px;
+}
+
+.brdr_rad {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.pb_38px {
+    padding-bottom: 38px;
+}
+
+.ps_41px {
+    padding-left: 41px;
+}
+
+.pe_42px {
+    padding-right: 42px;
+}
+
+.btn_out {
+    border: 1px solid white;
+    width: 77px;
+    height: 34px;
+    border-radius: 19px;
+    background-color: var(--color-white);
+    position: relative;
+}
+
+.move {
+    right: 0;
+    transform: translate(-3px, -50%) !important;
+}
+
+.mb_142px {
+    margin-bottom: 142px;
+}
+
+.moving_btn {
+    transition: none !important;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background: var(--about-us-section-gradient);
+    position: absolute;
+    top: 50%;
+    transform: translate(3px, -50%);
+}
+
+.gradient_price_adjust_box {
+    width: 405px;
+    min-height: 34px;
+}
+
+.pt_191px {
+    padding-top: 191px;
+}
+
+.pb_147px {
+    padding-bottom: 147px;
+}
+
+.footer_link:hover::before {
+    width: 100%;
+}
+
+.footer_link:hover {
+    -webkit-text-stroke: thin;
+}
+
+.footer_link {
+    position: relative;
+    cursor: pointer;
+}
+
+.pt_82px {
+    padding-top: 82px;
+}
+
+.pt_75px {
+    padding-top: 75px;
+}
+
+.mt_60px {
+    margin-top: 60px;
+}
+
+.brdr_out {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--black-color);
+}
 
 .prev:hover svg defs stop {
     stop-color: #F7608C;
