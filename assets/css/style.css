@@ -674,25 +674,6 @@ sup {
     /* .max_w_md {
         max-width: 293px;
     } */
-    .prev {
-        position: absolute;
-        right: 0%;
-        /* top: 65%; */
-        /* transform: translate(0, -65%); */
-        width: 34px;
-        height: 34px;
-        border-radius: 50%;
-    }
-
-    .next {
-        position: absolute;
-        /* top: 65%; */
-        left: 0%;
-        /* transform: translate(0, -50%); */
-        width: 34px;
-        height: 34px;
-        border-radius: 50%;
-    }
 }
 
 @media (min-width: 1400px) {
@@ -710,6 +691,28 @@ sup {
         position: absolute;
         top: 65%;
         left: 10%;
+        /* transform: translate(0, -50%); */
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .prev {
+        position: absolute;
+        right: 0%;
+        top: 65%;
+        /* transform: translate(0, -65%); */
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+    }
+
+    .next {
+        position: absolute;
+        top: 65%;
+        left: 0%;
         /* transform: translate(0, -50%); */
         width: 34px;
         height: 34px;
