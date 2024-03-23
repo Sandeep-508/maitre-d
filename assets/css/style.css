@@ -733,6 +733,16 @@ sup {
     .ps_0 {
         padding-left: 0;
     }
+
+    .w_h_preloader {
+        width: 150px;
+        height: 150px;
+    }
+
+    .loader_text {
+        font-size: var(--fs-50);
+        line-height: var(--lh-54);
+    }
 }
 
 @media (max-width: 576px) {
@@ -790,6 +800,16 @@ sup {
 
     .fs_max_md_med {
         font-size: medium;
+    }
+
+    .w_h_preloader {
+        width: 100px;
+        height: 100px;
+    }
+
+    .loader_text {
+        font-size: var(--fs-30);
+        line-height: var(--lh-48);
     }
 }
 
