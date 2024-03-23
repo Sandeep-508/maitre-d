@@ -74,3 +74,26 @@ click_btn.forEach(element => {
         }
     });
 });
+
+let scroll_top = document.querySelector(".scroll_to_top");
+let scrollPt = 200;
+window.addEventListener("scroll", () => {
+    if (window.scrollY > scrollPt) {
+        scroll_top.style.display = "flex";
+    } else {
+        scroll_top.style.display = "none";
+    }
+    scroll_top.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    });
+});
+
+gsap.from(".scroll_to_top", {
+    y: 20,
+    yoyo: true,
+    repeat: -1,
+    // duration: 0.75,
+})
