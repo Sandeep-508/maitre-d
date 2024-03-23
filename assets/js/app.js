@@ -102,4 +102,4 @@ gsap.from(".scroll_to_top", {
 let loader = document.querySelector(".preloader");
 setTimeout(() => {
     loader.classList.add("show_loader");
-}, 300000);
+}, 3000);
