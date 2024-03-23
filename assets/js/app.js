@@ -24,6 +24,7 @@ gsap.from(".orange_box", {
     yoyo: true,
     duration: 6,
     ease: "none",
+    backgroundColor: "red"
 });
 gsap.from(".spring", {
     rotate: 360,

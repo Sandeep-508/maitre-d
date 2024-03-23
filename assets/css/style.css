@@ -236,9 +236,9 @@
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(86.99%, #FD9B2B), color-stop(13.58%, #F14F09));
-    background: -o-linear-gradient(top, #FD9B2B 86.99%, #F14F09 13.58%);
-    background: linear-gradient(180deg, #FD9B2B 86.99%, #F14F09 13.58%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(86.99%, #FD9B2B), color-stop(100%, #F14F09));
+    background: -o-linear-gradient(top, #FD9B2B 86.99%, #F14F09 100%);
+    background: linear-gradient(180deg, #FD9B2B 86.99%, #F14F09 100%);
 }
 
 .adjust_box {
@@ -382,6 +382,12 @@
 
 textarea {
     resize: none;
+}
+
+.nonetran {
+    -webkit-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
 }
 
 .price_section:hover {
