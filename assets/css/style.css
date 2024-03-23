@@ -498,6 +498,29 @@ sup {
     stop-color: #F7608C;
 }
 
+.preloader {
+    background: var(--black-color);
+    position: fixed;
+    /* h-100 top-0 start-0 d-flex align-items-center justify-content-center z-3 */
+    width: 100%;
+    top: 0;
+    height: 100%;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    display: flex;
+}
+
+.w_h_preloader {
+    width: 200px;
+    height: 200px;
+}
+
+.show_loader {
+    top: -100%;
+}
+
 .pos_adjust_scroll {
     bottom: 20px;
     right: 20px;

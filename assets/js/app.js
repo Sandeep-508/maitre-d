@@ -96,4 +96,9 @@ gsap.from(".scroll_to_top", {
     yoyo: true,
     repeat: -1,
     // duration: 0.75,
-})
+});
+
+let loader = document.querySelector(".preloader");
+setTimeout(() => {
+    loader.classList.add("show_loader");
+}, 3000);
