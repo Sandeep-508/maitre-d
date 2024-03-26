@@ -920,6 +920,13 @@ sup {
         height: 34px;
         border-radius: 50%;
     }
+
+    .back_footer_img {
+        background-image: url(../images/png/footer_back_img.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+    }
 }
 
 @media (max-width: 1400px) {
