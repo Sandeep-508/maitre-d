@@ -741,6 +741,10 @@ sup {
     .next {
         display: none !important;
     }
+
+    .p_max_lg_15px {
+        padding: 15px !important;
+    }
 }
 
 @media (max-width: 991.4px) {
@@ -789,12 +793,12 @@ sup {
     }
 
     .container_modules {
-        min-height: 595px !important;
+        min-height: 1020px !important;
     }
 
-    .row_height {
-        min-height: 632px;
-    }
+    /* .row_height {
+        min-height: 1020px;
+    } */
 }
 
 @media (max-width: 576px) {
@@ -931,6 +935,10 @@ sup {
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: center;
+    }
+
+    .min_h_513px {
+        min-height: 513px;
     }
 }
 
