@@ -504,7 +504,7 @@ sup {
 }
 
 .prev:hover svg defs stop {
-    stop-color: #F7608C;
+    stop-color: var(--stop-clr-1);
 }
 
 .preloader {
@@ -578,15 +578,15 @@ sup {
 }
 
 .prev:hover svg defs stop[offset="1"] {
-    stop-color: #F8AC58;
+    stop-color: var(--stop-clr-2);
 }
 
 .next:hover svg defs stop {
-    stop-color: #F7608C;
+    stop-color: var(--stop-clr-1);
 }
 
 .next:hover svg defs stop[offset="1"] {
-    stop-color: #F8AC58;
+    stop-color: var(--stop-clr-2);
 }
 
 .orange_box {
@@ -867,15 +867,15 @@ sup {
     }
 
     .hover_effect:hover .gradient_box svg defs stop {
-        stop-color: #F7608C;
+        stop-color: var(--stop-clr-1);
     }
 
     .hover_effect:hover .gradient_box svg defs stop[offset="1"] {
-        stop-color: #F8AC58;
+        stop-color: var(--stop-clr-2);
     }
 
     .hover_effect:hover .svg_icon path {
-        fill: #F7608C;
+        fill: var(--stop-clr-1);
     }
 
     .min_h_632px {
