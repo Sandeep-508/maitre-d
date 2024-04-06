@@ -17,7 +17,7 @@
 }
 
 .container_modules {
-    max-width: 1016px;
+    max-width: 1140px;
     padding-left: 12px;
     padding-right: 12px;
     margin-left: auto;
@@ -47,6 +47,7 @@
 .card_hover {
     width: 100%;
     height: 100%;
+    cursor: pointer;
 }
 
 .px_37px {
@@ -111,7 +112,7 @@
 }
 
 .nav_link:hover {
-    -webkit-text-stroke: medium;
+    -webkit-text-stroke: thin;
 }
 
 .pb_169px {
@@ -133,7 +134,7 @@
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     width: 0;
-    background: var(--black-color);
+    background: var(--about-us-section-gradient);
     bottom: -5px;
     height: 3px;
 }
@@ -149,6 +150,7 @@
     bottom: 0;
     left: 0;
     min-height: 300px;
+    transform: translate(0, 50%);
 }
 
 .white_top_image {
@@ -257,9 +259,7 @@
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(86.99%, #FD9B2B), color-stop(100%, #F14F09));
-    background: -o-linear-gradient(top, #FD9B2B 86.99%, #F14F09 100%);
-    background: linear-gradient(180deg, #FD9B2B 86.99%, #F14F09 100%);
+    background: var(--about-us-section-gradient-hover);
 }
 
 .adjust_box {
@@ -565,7 +565,7 @@ sup {
 }
 
 .w_h_scroll_to_top:hover svg.svg_scroll path {
-    fill: #F14F09 !important;
+    fill: var(--svg-fill-clr) !important;
 }
 
 
@@ -573,9 +573,6 @@ sup {
     cursor: pointer;
 }
 
-.hover_effect {
-    cursor: pointer;
-}
 
 .prev:hover svg defs stop[offset="1"] {
     stop-color: var(--stop-clr-2);
@@ -727,11 +724,11 @@ sup {
 
 @media (max-width: 991.4px) and (min-width: 768px) {
     .min_h_632px {
-        min-height: 632px;
+        height: 1120px;
     }
 
     .container_modules {
-        min-height: 793px !important;
+        min-height: 1100px !important;
     }
 }
 
@@ -743,10 +740,6 @@ sup {
 
     .lh_max_md_48 {
         line-height: var(--lh-48);
-    }
-
-    .ps_0 {
-        padding-left: 0;
     }
 
     .w_h_preloader {
@@ -813,6 +806,10 @@ sup {
         font-size: small;
     }
 
+    .ps_0 {
+        padding-left: 0;
+    }
+
     .fs_max_md_med {
         font-size: medium;
     }
@@ -834,7 +831,7 @@ sup {
     }
 
     .container_modules {
-        min-height: 1119px !important;
+        min-height: 1120px !important;
     }
 
     .row_height {
@@ -904,7 +901,7 @@ sup {
     }
 
     .container_modules {
-        min-height: 1020px !important;
+        min-height: 960px !important;
     }
 
     .row_height {
